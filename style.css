@@ -100,10 +100,11 @@ p{
     padding: 16px;
     background-color: transparent;
     transition: all var(--animation-duration) ease-in-out;
+    z-index: 1;
 }
 
 #navbar.navbar--dark{
-    background-color: var(--color-blue);
+    background-color: var(--color-sky-blue);
     padding: 8px;
 }
 
@@ -464,7 +465,7 @@ p{
 
 .navbar__toggle-btn{
     position: absolute;
-    top: 24px;
+    top: 16px;
     right: 32px;
     font-size: 24px;
     color: var(--color-white);

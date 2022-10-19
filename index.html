@@ -38,19 +38,21 @@
     
     <!-- Home -->
     <section id="home">
-        <img src="images/profile.jpg" alt="Minjee's profile photo" class="home__avatar" />
+        <div class="home__container">
+            <img src="images/profile.jpg" alt="Minjee's profile photo" class="home__avatar" />
         <h1 class="home__title">Hello! <br />I'm Minjee Kim :-)</h1>
         <h2 class="home__description">
             A Software Enginner who wants to cultivate knowledge in Front-end.
         </h2>
         <button class="home__contact">Contact Me</button>
+        </div>        
     </section>
 
     <!-- About -->
     <section id="about" class="section section__container">
         <h1>About Me</h1>
         <p>A collaborative and detail-oriented student of Software Engineering Technology, 
-            specializing in Artificial Intelligence, who is passionate for learning new technologies. 
+            specialising in Artificial Intelligence, who is passionate for learning new technologies. 
         </p>
         <div class="about__majors">
             <div class="major">
@@ -173,7 +175,8 @@
 
     <!-- My Work -->
     <section id="work" class="section">
-        <h1>My Work</h1>
+        <div class="section__container">
+            <h1>My Work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
             <button class="category__btn active">
@@ -226,24 +229,37 @@
                 <span>Registration Form using regular expression (JavaScript)</span>
             </div>
             </a>
-
-
         </div>
+        </div>      
     </section>
 
     <!-- Testimonials -->
     <section id="testimonials" class="section">
+        <div class="section__container">
         <h1>Testimonials</h1>
         <h3>See what they say about me</h3>
         <div class="testimonials">
-            <div class="testimonials">
-                <img src="images/testimonial/person.jpg" alt="person" class="testimonial__avatar">
+            <div class="testimonial">
+                <img src="images/testimonial/person.jpg" 
+                alt="person" 
+                class="testimonial__avatar" />
                 <div class="testimonial__speech-bubble">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, voluptas?</p>
-                    <p class="name"><a href="Minjee"> / Centennial College</a></p>
+                    <p class="name"><a href="">Minjee</a> / Centennial College</p>
                 </div>
             </div>
+
+            <div class="testimonial">
+                <div class="testimonial__speech-bubble">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, voluptas?</p>
+                    <p class="name"><a href="">Minjee</a> / Centennial College</p>
+                </div>
+                <img src="images/testimonial/person.jpg" 
+                alt="person" 
+                class="testimonial__avatar" />
+            </div>         
         </div>
+        </div>      
     </section>
 
     <!-- Contact -->

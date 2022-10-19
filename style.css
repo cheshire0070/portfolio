@@ -92,12 +92,19 @@ p{
 
 /* Navbar */
 #navbar{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-sky-blue);
     align-items: center;
-    color: var(--color-white);
     padding: 16px;
+    background-color: transparent;
+    transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark{
+    background-color: var(--color-blue);
+    padding: 8px;
 }
 
 .navbar__menu{
@@ -107,11 +114,13 @@ p{
 .navbar__logo{
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
+    color: var(--color-white);
 }
 
 .navbar__menu__item{
     padding: 8px 12px;
     margin: 0px 4px;
+    color: var(--color-white);
     cursor: pointer;
     border-radius: var(--size-border-radius);
 }
@@ -121,13 +130,15 @@ p{
 }
 
 .navbar__menu__item:hover{
-    background-color: var(--color-baby-pink);
+    background-color: transparent;
+    border: 1px solid var(--color-white);
 }
 
 /* Home */
 #home{
     background: url("images/minjee_background.png") center/cover no-repeat;
     padding: 40px;
+    padding-top: 120px;
     text-align: center;
 }
 
@@ -167,7 +178,7 @@ p{
 /* About */
 .about__majors{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 80px 0px;
 }
 
@@ -389,7 +400,6 @@ p{
 
 .testimonials{
     margin: 40px;
-    align-items: center;
 }
 
 .testimonial{

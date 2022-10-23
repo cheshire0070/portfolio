@@ -24,21 +24,18 @@
             <i class="fas fa-solid fa-user"></i>
             <a href="#">Minjee</a>
         </div>
-        <div class="navbar__menu">
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item" data-link="#home">Home</li>
-                <li class="navbar__menu__item" data-link="#about">About Me</li>
-                <li class="navbar__menu__item" data-link="#skills">Skills</li>
-                <li class="navbar__menu__item" data-link="#work">My Work</li>
-                <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
-                <li class="navbar__menu__item" data-link="#contact">Contact</li>
-            </ul>
-        </div>
-
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About Me</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">My Work</li>
+            <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
         <!-- Toggle button -->
-    <button class="navbar__toggle-btn">
-        <i class="fas fa-solid fa-burger"></i>
-    </button>
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-solid fa-burger"></i>
+        </button>
     </nav>
     
     <!-- Home -->
@@ -114,7 +111,7 @@
         <p>
             I have cultivated extensive abilities in software systems design, testing, and applying Agile methodology 
             in hands-on projects, where I took leadership roles, such as Scrum Master. Furthermore, I am currently 
-            working on a project called ‘ANABADA’, a second-hand product trading system as a Frontend Developer. 
+            working on my personal portfolio to enhance my skills in Front-end. 
             Some of my skills include those in C#, Java, JavaScript, Python, SQL, and HTML/CSS, and I continue to broaden 
             this knowledge through self-learning and my academic courses.
         </p>
@@ -154,13 +151,12 @@
 
             <div class="skillset__right">
                 <div class="tools">
-                    <h3 class="skillset_title">Tools</h3> 
+                    <h3 class="skillset_title">Self-learning (in progress)</h3> 
                     <ul class="tools__list">
-                        <li><span>Visual Studio Code</span></li>
-                        <li><span>Visual Studio</span></li>
-                        <li><span>Sketch app</span></li>
-                        <li><span>IntelliJ</span></li>
-                        <li><span>Android Studio Code</span></li>
+                        <li><span>React</span></li>
+                        <li><span>Angular</span></li>
+                        <li><span>MongoDB/Mongoose</span></li>
+                        <li><span>TypeScript</span></li>
                     </ul>
                 </div>
                 <div class="etc">
@@ -184,13 +180,13 @@
         <h3>Projects</h3>
         <div class="work__categories">
             <button class="category__btn selected" data-filter="*">
-                All <span class="category__count">3</span>
+                All <span class="category__count">4</span
             </button>
             <button class="category__btn" data-filter="front-end">
-                Front-end <span class="category__count">1</span>
+                Front-end <span class="category__count">3</span>
             </button>
             <button class="category__btn" data-filter="back-end">
-                Back-end <span class="category__count">1</span>
+                Back-end <span class="category__count">...</span>
             </button>
             <button class="category__btn" data-filter="etc">
                 Etc <span class="category__count">1</span>
@@ -209,7 +205,7 @@
 
             <a href="https://github.com/cheshire0070/portfolio" 
             class="project" target="_blank" data-type="front-end">
-            <img class="project__img" src="images/projects/butterfly.png" alt="JavaScript">
+            <img class="project__img" src="images/projects/butterfly.png" alt="Butterfly Buster">
             <div class="project__description">
                 <h3>Butterfly Buster</h3>
                 <span>A simple game - Clicking the flying butterfly and earning scores
@@ -219,20 +215,20 @@
             </a>
 
             <a href="https://github.com/cheshire0070/portfolio" 
-            class="project" target="_blank" data-type="etc">
-            <img class="project__img" src="images/projects/marine.png" alt="Regular Expression">
+            class="project" target="_blank" data-type="front-end">
+            <img class="project__img" src="images/projects/marine.png" alt="Photo Gallery">
             <div class="project__description">
                 <h3>Marine Photo Gallery</h3>
                 <span>Registration Form using regular expression (JavaScript)</span>
             </div>
             </a>
 
-            <a href="https://github.com/cheshire0070/portfolio" 
-            class="project" target="_blank">
-            <img class="project__img" src="images/projects/anabada.png" alt="Regular Expression">
+            <a href="https://github.com/cheshire0070/kokoa-clone-2022" 
+            class="project" target="_blank" data-type="etc">
+            <img class="project__img" src="images/projects/anabada.png" alt="Clone Coding">
             <div class="project__description">
-                <h3>Registration Form</h3>
-                <span>Registration Form using regular expression (JavaScript)</span>
+                <h3>Clone Coding</h3>
+                <span>Clone Coding of KakaoTalk using HTML/CSS</span>
             </div>
             </a>
         </div>

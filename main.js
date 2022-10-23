@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // Make navbar transparent when it is on the top
 const navbar = document.querySelector('#navbar');
@@ -21,7 +21,14 @@ navbarMenu.addEventListener('click', (event) =>{
     if (link == null){
         return;
     }
+    navbarMenu.classList.remove('open');
     scrollIntoView(link);
+});
+
+// Navbar toggle btn for squeezed screen
+const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
+navbarToggleBtn.addEventListener('click', () =>{
+    navbarMenu.classList.toggle('open');
 });
 
 // Handle click on "Contact me" btn on home

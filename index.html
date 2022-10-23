@@ -21,7 +21,7 @@
     <!-- Navbar -->
     <nav id="navbar">
         <div class="navbar__logo">
-            <i class="fas fa-solid fa-code"></i>
+            <i class="fas fa-solid fa-user"></i>
             <a href="#">Minjee</a>
         </div>
         <div class="navbar__menu">
@@ -73,7 +73,7 @@
 
             <div class="major">
                 <div class="major__icon">
-                    <i class="fas fa-brands fa-html5"></i>
+                    <i class="fas fa-solid fa-code"></i></i>
                 </div>
                 <h2 class="major__title">Back-end</h2>
                 <p class="major__description">
@@ -84,7 +84,7 @@
 
             <div class="major">
                 <div class="major__icon">
-                    <i class="fas fa-brands fa-html5"></i>
+                    <i class="fas fa-solid fa-book"></i>
                 </div>
                 <h2 class="major__title">Etc</h2>
                 <p class="major__description">
@@ -183,23 +183,23 @@
             <h1>My Work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-            <button class="category__btn">
+            <button class="category__btn active" data-filter="*">
                 All <span class="category__count">3</span>
             </button>
-            <button class="category__btn">
-                Front-end <span class="category__count">3</span>
+            <button class="category__btn" data-filter="front-end">
+                Front-end <span class="category__count">1</span>
             </button>
-            <button class="category__btn">
-                Back-end <span class="category__count">2</span>
+            <button class="category__btn" data-filter="back-end">
+                Back-end <span class="category__count">1</span>
             </button>
-            <button class="category__btn">
-                Etc <span class="category__count">2</span>
+            <button class="category__btn" data-filter="etc">
+                Etc <span class="category__count">1</span>
             </button>
         </div>
 
         <div class="work__projects">
             <a href="https://github.com/cheshire0070/portfolio" 
-            class="project" target="_blank">
+            class="project" target="_blank" data-type="front-end">
             <img class="project__img" src="images/projects/regular_exp.png" alt="Regular Expression">
             <div class="project__description">
                 <h3>Registration Form</h3>
@@ -208,7 +208,7 @@
             </a>
 
             <a href="https://github.com/cheshire0070/portfolio" 
-            class="project" target="_blank">
+            class="project" target="_blank" data-type="front-end">
             <img class="project__img" src="images/projects/butterfly.png" alt="JavaScript">
             <div class="project__description">
                 <h3>Butterfly Buster</h3>
@@ -219,7 +219,7 @@
             </a>
 
             <a href="https://github.com/cheshire0070/portfolio" 
-            class="project" target="_blank">
+            class="project" target="_blank" data-type="etc">
             <img class="project__img" src="images/projects/marine.png" alt="Regular Expression">
             <div class="project__description">
                 <h3>Marine Photo Gallery</h3>
@@ -238,7 +238,7 @@
         </div>
         </div>      
     </section>
-
+,
     <!-- Testimonials -->
     <section id="testimonials" class="section">
         <div class="section__container">
@@ -270,7 +270,7 @@
 
     <!-- Contact -->
     <section id="contact" class="section">
-        <h1 class="contact__title">Let's talk</h1>
+        <h1 class="contact__title">Contact Me!</h1>
         <h2 class="contact__email">mkim276@my.centennialcollege.ca</h2>
         <div class="contact__links">
             <a href="https://github.com/cheshire0070" target="_blank"> 

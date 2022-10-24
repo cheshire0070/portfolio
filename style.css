@@ -467,7 +467,7 @@ p{
 }
 
 .testimonial__speech-bubble a{
-    color: var(--color-pink);
+    color: var(--color-blue);
 }
 
 /* Contact */
@@ -483,6 +483,10 @@ p{
 
 .contact__title{
     margin: 32px 0px;
+}
+
+.contact__email{
+    cursor: pointer;
 }
 
 .contact__links{
